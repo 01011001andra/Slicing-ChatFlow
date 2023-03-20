@@ -18,50 +18,54 @@ const Footer = () => {
           Sign Up Now
         </button>
       </div>
-      <div className="w-full h-full flex flex-wrap justify-center">
-        <div className="w-[265px] h-full flex flex-col gap-5 border-y py-6 sm:py-[50px] items-center sm:items-start">
-          <h2 className="text-[#0D082C] text-sm font-bold tracking-widest">
-            PRODUCTS
-          </h2>
-          <ul className="flex flex-col gap-2">
-            <li className="leading-7">Download App</li>
-            <li className="leading-7">Download App</li>
-            <li className="leading-7">Download App</li>
-            <li className="leading-7">Download App</li>
-          </ul>
+      <div className="w-full h-full flex flex-col md:flex-row">
+        <div className="w-full h-full flex justify-center">
+          <div className="w-[265px] h-full flex flex-col gap-5 border-t py-6 sm:py-[50px] items-center sm:items-start">
+            <h2 className="text-[#0D082C] text-sm font-bold tracking-widest">
+              PRODUCTS
+            </h2>
+            <ul className="flex flex-col gap-2">
+              <li className="leading-7">Download App</li>
+              <li className="leading-7">Download App</li>
+              <li className="leading-7">Download App</li>
+              <li className="leading-7">Download App</li>
+            </ul>
+          </div>
+          <div className="w-[265px] h-full flex flex-col gap-5 border-t py-6 sm:py-[50px] items-center sm:items-start">
+            <h2 className="text-[#0D082C] text-sm font-bold tracking-widest">
+              PRODUCTS
+            </h2>
+            <ul className="flex flex-col gap-2">
+              <li className="leading-7">Download App</li>
+              <li className="leading-7">Download App</li>
+              <li className="leading-7">Download App</li>
+              <li className="leading-7">Download App</li>
+            </ul>
+          </div>
         </div>
-        <div className="w-[265px] h-full flex flex-col gap-5 border-y py-6 sm:py-[50px] items-center sm:items-start">
-          <h2 className="text-[#0D082C] text-sm font-bold tracking-widest">
-            PRODUCTS
-          </h2>
-          <ul className="flex flex-col gap-2">
-            <li className="leading-7">Download App</li>
-            <li className="leading-7">Download App</li>
-            <li className="leading-7">Download App</li>
-            <li className="leading-7">Download App</li>
-          </ul>
-        </div>
-        <div className="w-[265px] h-full flex flex-col gap-5 border-y py-6 sm:py-[50px] items-center sm:items-start">
-          <h2 className="text-[#0D082C] text-sm font-bold tracking-widest">
-            PRODUCTS
-          </h2>
-          <ul className="flex flex-col gap-2">
-            <li className="leading-7">Download App</li>
-            <li className="leading-7">Download App</li>
-            <li className="leading-7">Download App</li>
-            <li className="leading-7">Download App</li>
-          </ul>
-        </div>
-        <div className="w-[265px] h-full flex flex-col gap-5 border-y py-6 sm:py-[50px] items-center sm:items-start">
-          <h2 className="text-[#0D082C] text-sm font-bold tracking-widest">
-            PRODUCTS
-          </h2>
-          <ul className="flex flex-col gap-2">
-            <li className="leading-7">Download App</li>
-            <li className="leading-7">Download App</li>
-            <li className="leading-7">Download App</li>
-            <li className="leading-7">Download App</li>
-          </ul>
+        <div className="w-full h-full flex justify-center">
+          <div className="w-[265px] h-full flex flex-col gap-5 border-b py-6 sm:py-[50px] items-center sm:items-start">
+            <h2 className="text-[#0D082C] text-sm font-bold tracking-widest">
+              PRODUCTS
+            </h2>
+            <ul className="flex flex-col gap-2">
+              <li className="leading-7">Download App</li>
+              <li className="leading-7">Download App</li>
+              <li className="leading-7">Download App</li>
+              <li className="leading-7">Download App</li>
+            </ul>
+          </div>
+          <div className="w-[265px] h-full flex flex-col gap-5 border-b py-6 sm:py-[50px] items-center sm:items-start">
+            <h2 className="text-[#0D082C] text-sm font-bold tracking-widest">
+              PRODUCTS
+            </h2>
+            <ul className="flex flex-col gap-2">
+              <li className="leading-7">Download App</li>
+              <li className="leading-7">Download App</li>
+              <li className="leading-7">Download App</li>
+              <li className="leading-7">Download App</li>
+            </ul>
+          </div>
         </div>
       </div>
       <h1 className="font-bold text-xs tracking-widest text-[#0D082C] opacity-40 pt-5 pb-[50px]">
